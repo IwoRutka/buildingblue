@@ -1,4 +1,4 @@
-# PrestaShop Classic Theme
+# PrestaShop Building Blue Theme
 
-The Classic Theme is the default Theme for Prestashop 1.7 and onwards.
-It is built upon the Starter Theme which is not maintained anymore.
+The Building Blue Theme is built upon the default Clasic Theme for Prestashop 1.7.7.4.
+
