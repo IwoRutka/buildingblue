@@ -1,17 +1,19 @@
 #footer {
   padding-top: 2.5rem;
+  background: $brand-bb-dark !important;
+
 }
 
 .block-contact {
   font-size: 0.875rem;
-  color: $gray;
+  color: $white;
 
   .block-contact-title {
-    color: $gray-darker;
+    color: $white;
   }
 
   .navbar-toggler .material-icons {
-    color: $gray-darker;
+    color: $white;
   }
 
   @include media-breakpoint-down(sm) {
@@ -24,12 +26,12 @@
 
 .linklist {
   .blockcms-title a {
-    color: $gray-darker;
+    color: $white;
   }
 }
 
 .account-list a {
-  color: $gray;
+  color: $white;
 
   &:hover {
     color: $brand-primary;
@@ -72,7 +74,7 @@
       }
 
       &:hover {
-        background-color: $brand-primary;
+        background-color: $brand-bb-dark;
       }
 
       a {
@@ -156,7 +158,7 @@
 
 #block_myaccount_infos {
   .myaccount-title a {
-    color: $gray-darker;
+    color: $white;
   }
 }
 
@@ -193,6 +195,7 @@
   .h4 {
     margin-bottom: 1rem;
     font-size: 1rem;
+    color: $white;
   }
 
   li {
@@ -201,7 +204,7 @@
 
   li a {
     font-size: $font-size-sm;
-    color: $gray;
+    color: $white;
     cursor: pointer;
 
     &:hover {
@@ -249,7 +252,7 @@
           border-bottom: 1px solid $white;
 
           a {
-            color: $gray-darker;
+            color: $white;
           }
         }
       }

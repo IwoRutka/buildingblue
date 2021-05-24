@@ -2,10 +2,46 @@
   display: inline-block;
   @include search-box();
 }
+#search_widget {
+// margin-top: 5px;
+margin-right: 12px;
+form{
+  input[type="text"] {
+    background-color: $brand-bb-dark;
+    // color: $gray-light;
+  }
+  ::placeholder {
+    color: white;
+    opacity: 0.6;
+    text-align: right;
+  }
+
+  i{
+    right: 12px;
+      }
+
+}
+form:hover{
+  input[type="text"]{
+    background-color: $brand-primary;
+    color: $gray-light;
+  }
+
+  ::placeholder {
+    color: $gray-light;
+    opacity: 0.6;
+  }
+  i{
+right: 12px;
+  }
+}
+
+}
 
 .header-top {
   .search-widget {
     form {
+      position: fixed;
       input[type="text"] {
         width: 100%;
         min-width: inherit;
@@ -24,6 +60,9 @@
       }
     }
   }
+
+
+
 }
 
 #checkout {

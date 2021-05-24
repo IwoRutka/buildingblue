@@ -2,10 +2,12 @@
   position: relative;
   z-index: 999;
   color: $white;
-  font-weight: 600;
+  font-weight: 400;
   background: $brand-bb-dark !important;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.11);
-  
+  position: fixed;
+  width: 100%;
+  z-index: 100000000000;
 
   .logo {
     max-width: 100%;
@@ -21,8 +23,8 @@
     color: $white;
 
     &:hover {
-      color: $brand-primary;
-      text-decoration: none;
+      // color: $brand-primary;
+      text-decoration: underline;
     }
   }
 
@@ -38,7 +40,7 @@
 
   .header-nav {
     max-height: 50px;
-    border-bottom: $gray-light 2px solid;
+    // border-bottom: $brand-bb-dark 2px solid;
 
 
     #menu-icon {
@@ -148,8 +150,8 @@
   }
 
   .header-top {
-    padding: 1.25rem 0;
-
+    padding: .55rem 0;
+background-color: $brand-bb-dark !important;
     > .container {
       position: relative;
 
@@ -174,7 +176,7 @@
     }
 
     a[data-depth="0"] {
-      color: $gray;
+      color: $white;
       text-transform: uppercase;
     }
 

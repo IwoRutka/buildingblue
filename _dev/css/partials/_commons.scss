@@ -4,9 +4,10 @@ html {
 }
 
 body {
-  font-family: Manrope, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: $base-font-size;
-  line-height: 1.25em;
+  font-weight: 400;
+  line-height: 1.2em;
   color: $gray-darker;
   direction: ltr;
   -webkit-font-smoothing: antialiased;

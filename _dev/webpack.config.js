@@ -79,7 +79,9 @@ let config = {
     jquery: 'jQuery',
   },
   plugins: [new ExtractTextPlugin(path.join('..', 'css', 'theme.css'))],
+  
 };
+
 
 if (process.env.NODE_ENV === 'production') {
   config.plugins.push(

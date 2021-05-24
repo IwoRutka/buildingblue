@@ -19,7 +19,7 @@
   }
 
   a.dropdown-submenu {
-    font-weight: 600;
+    font-weight: 400;
     color: $gray-darker;
     text-transform: uppercase;
   }
@@ -27,7 +27,7 @@
   a[data-depth="0"] {
     padding: $small-space;
     font-size: 1.125rem;
-    font-weight: 600;
+    font-weight: 400;
 
     &:hover {
       #header & {
@@ -80,6 +80,7 @@
   .popover {
     max-width: inherit;
     border-radius: 0;
+    background-color: $brand-bb-dark;
   }
 }
 
@@ -104,7 +105,7 @@
 
 #mobile_top_menu_wrapper {
   padding: 15px;
-  background: $white;
+  background: $brand-bb-dark;
 
   #top-menu {
     margin-bottom: 0.625rem;
@@ -153,7 +154,7 @@
       min-width: 100%;
       margin-left: 0;
       overflow: hidden;
-      background: $white;
+      background: $brand-bb-dark;
       box-shadow: none;
 
       &.collapse {
