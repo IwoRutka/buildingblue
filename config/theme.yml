@@ -60,7 +60,9 @@ global_settings:
       displayNavFullWidth:
         - blockreassurance
       displayNav1:
+
       displayNav2:
+        
       displayTop:
         - ps_mainmenu
         - ps_searchbar
